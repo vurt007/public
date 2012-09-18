@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EntityDescriptor ID="_0a4bcbe7-f034-4efe-b4f0-5757151179c0" entityID="http://nice.sts.local/oa/metadata" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+      <Reference URI="#_0a4bcbe7-f034-4efe-b4f0-5757151179c0">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+          <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+        <DigestValue>1zutEGQkgcc8fdBE8mUAsxTpMWvRBm62Rwrp8/Ko5fE=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>GjnQ8npjTZW5kkWoHXKEv8Hk5rJtZhIYaFT4iupNdM+W6j/KvI566t0sDWLkD7nPqrNC17FvwvzA0jyTYGtOuhOtgKRAhuF1EYF2z9aly5gCqNBTvHfaswRptZ4sv+e1Csl0mglEviBmBoXNbCgIBx3eV6ZXzYiOLGx8q90fD9uVcRElOdARtAZqIYieglatnlT1AOZwAQXHZnxsPNa347QDpyGKPU0rJX38uy2Lqf8f0evRLfre1w81u6O1BzR/LK9OTWN15YrOALXjqLJRUuorMm5khqo0taZAq0EP/fXzgXn0V5hlCSLU4KNj/EeBp0T/HvDEQdE+tYYpLetkqQ==</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>MIIC7DCCAlWgAwIBAgICIVUwDQYJKoZIhvcNAQEFBQAwgaoxCzAJBgNVBAYTAkdCMREwDwYDVQQIEwhTb21lcnNldDENMAsGA1UEBxMEQmF0aDEQMA4GA1UEChMHRWR1U2VydjEPMA0GA1UECxMGQXRoZW5zMSswKQYDVQQDEyJBdGhlbnMgQU1TIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MSkwJwYJKoZIhvcNAQkBFhp0ZWNoLXN1cHBvcnRAYXRoZW5zYW1zLm5ldDAeFw0xMTA2MDYxMTQwMDhaFw0xMzAxMzExMTQwMDhaMEgxCzAJBgNVBAYTAkdCMRMwEQYDVQQIEwpNYW5jaGVzdGVyMRUwEwYDVQQKEwxOSFMgRXZpZGVuY2UxDTALBgNVBAMTBE5FTEgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDFay3GRMjy2ea3UeFncf4gBCYh0Md1U7z2swTCoy4TxRu++mgCXD1nyCb8DI1XFW0UqSuMiXvclOcqvQ5by7MybEXlQNNPIwxlDpkDfAnpDYX01lzlya+Vb5VmeMhLDyeHMgU6Z0VTXAEhTRtakWs2F7wSMDcTOFq6BtPyIY+hv9RALpsaXYqjkvOT8Zz76bbBD4aaYpniecZnIm29QP+a4kFR+2Z8rSqOJyuJtY7WDaojXn4zFIYiAgimG4/+iV/KHcGZcbxkcKZMiV+TOXvr9FSrhxhgxvOGUO/pcqAHVI5yDNx/hQ/lEe883jxAaiXfly0JAUpha4eWR54d/U/nAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAjT0k5oTex4RPSlmsstH9SsvRknjbRQpi0SS502N1Ogyv9ZndbSazfwOO2kBU9tpOgIY2+v9lCa1I2ucR/3wqRfhU1xkF3GR6k2afPzXB/AkLf7sok8+sHyS3uXjR8rngupywHT0VEbfBTQagSPxKvT7yus8SmBBchWBs2O/zIXs=</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+  </Signature>
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIC7DCCAlWgAwIBAgICIVUwDQYJKoZIhvcNAQEFBQAwgaoxCzAJBgNVBAYTAkdCMREwDwYDVQQIEwhTb21lcnNldDENMAsGA1UEBxMEQmF0aDEQMA4GA1UEChMHRWR1U2VydjEPMA0GA1UECxMGQXRoZW5zMSswKQYDVQQDEyJBdGhlbnMgQU1TIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MSkwJwYJKoZIhvcNAQkBFhp0ZWNoLXN1cHBvcnRAYXRoZW5zYW1zLm5ldDAeFw0xMTA2MDYxMTQwMDhaFw0xMzAxMzExMTQwMDhaMEgxCzAJBgNVBAYTAkdCMRMwEQYDVQQIEwpNYW5jaGVzdGVyMRUwEwYDVQQKEwxOSFMgRXZpZGVuY2UxDTALBgNVBAMTBE5FTEgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDFay3GRMjy2ea3UeFncf4gBCYh0Md1U7z2swTCoy4TxRu++mgCXD1nyCb8DI1XFW0UqSuMiXvclOcqvQ5by7MybEXlQNNPIwxlDpkDfAnpDYX01lzlya+Vb5VmeMhLDyeHMgU6Z0VTXAEhTRtakWs2F7wSMDcTOFq6BtPyIY+hv9RALpsaXYqjkvOT8Zz76bbBD4aaYpniecZnIm29QP+a4kFR+2Z8rSqOJyuJtY7WDaojXn4zFIYiAgimG4/+iV/KHcGZcbxkcKZMiV+TOXvr9FSrhxhgxvOGUO/pcqAHVI5yDNx/hQ/lEe883jxAaiXfly0JAUpha4eWR54d/U/nAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAjT0k5oTex4RPSlmsstH9SsvRknjbRQpi0SS502N1Ogyv9ZndbSazfwOO2kBU9tpOgIY2+v9lCa1I2ucR/3wqRfhU1xkF3GR6k2afPzXB/AkLf7sok8+sHyS3uXjR8rngupywHT0VEbfBTQagSPxKvT7yus8SmBBchWBs2O/zIXs=</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://nice.sts.local/oa/auth/rcvr" index="0" />
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://nice.sts.local/oa/auth/rcvr" index="1" />
+  </SPSSODescriptor>
+  <Organization>
+    <OrganizationName xml:lang="en-GB">NICE</OrganizationName>
+    <OrganizationDisplayName xml:lang="en-GB">National Institute of health and Clinical Excellence</OrganizationDisplayName>
+    <OrganizationURL xml:lang="">http://www.nice.org.uk/</OrganizationURL>
+  </Organization>
+  <ContactPerson contactType="technical">
+    <Company>NICE</Company>
+    <GivenName>Claudio</GivenName>
+    <SurName>Fiore</SurName>
+    <EmailAddress>claudio.fiore@nice.org.uk</EmailAddress>
+  </ContactPerson>
+</EntityDescriptor>
