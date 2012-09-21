@@ -1,45 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<EntityDescriptor ID="_0a4bcbe7-f034-4efe-b4f0-5757151179c0" entityID="http://nice.sts.local/oa/metadata" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
-  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
-    <SignedInfo>
-      <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
-      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
-      <Reference URI="#_0a4bcbe7-f034-4efe-b4f0-5757151179c0">
-        <Transforms>
-          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
-          <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
-        </Transforms>
-        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-        <DigestValue>1zutEGQkgcc8fdBE8mUAsxTpMWvRBm62Rwrp8/Ko5fE=</DigestValue>
-      </Reference>
-    </SignedInfo>
-    <SignatureValue>GjnQ8npjTZW5kkWoHXKEv8Hk5rJtZhIYaFT4iupNdM+W6j/KvI566t0sDWLkD7nPqrNC17FvwvzA0jyTYGtOuhOtgKRAhuF1EYF2z9aly5gCqNBTvHfaswRptZ4sv+e1Csl0mglEviBmBoXNbCgIBx3eV6ZXzYiOLGx8q90fD9uVcRElOdARtAZqIYieglatnlT1AOZwAQXHZnxsPNa347QDpyGKPU0rJX38uy2Lqf8f0evRLfre1w81u6O1BzR/LK9OTWN15YrOALXjqLJRUuorMm5khqo0taZAq0EP/fXzgXn0V5hlCSLU4KNj/EeBp0T/HvDEQdE+tYYpLetkqQ==</SignatureValue>
-    <KeyInfo>
-      <X509Data>
-        <X509Certificate>MIIC7DCCAlWgAwIBAgICIVUwDQYJKoZIhvcNAQEFBQAwgaoxCzAJBgNVBAYTAkdCMREwDwYDVQQIEwhTb21lcnNldDENMAsGA1UEBxMEQmF0aDEQMA4GA1UEChMHRWR1U2VydjEPMA0GA1UECxMGQXRoZW5zMSswKQYDVQQDEyJBdGhlbnMgQU1TIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MSkwJwYJKoZIhvcNAQkBFhp0ZWNoLXN1cHBvcnRAYXRoZW5zYW1zLm5ldDAeFw0xMTA2MDYxMTQwMDhaFw0xMzAxMzExMTQwMDhaMEgxCzAJBgNVBAYTAkdCMRMwEQYDVQQIEwpNYW5jaGVzdGVyMRUwEwYDVQQKEwxOSFMgRXZpZGVuY2UxDTALBgNVBAMTBE5FTEgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDFay3GRMjy2ea3UeFncf4gBCYh0Md1U7z2swTCoy4TxRu++mgCXD1nyCb8DI1XFW0UqSuMiXvclOcqvQ5by7MybEXlQNNPIwxlDpkDfAnpDYX01lzlya+Vb5VmeMhLDyeHMgU6Z0VTXAEhTRtakWs2F7wSMDcTOFq6BtPyIY+hv9RALpsaXYqjkvOT8Zz76bbBD4aaYpniecZnIm29QP+a4kFR+2Z8rSqOJyuJtY7WDaojXn4zFIYiAgimG4/+iV/KHcGZcbxkcKZMiV+TOXvr9FSrhxhgxvOGUO/pcqAHVI5yDNx/hQ/lEe883jxAaiXfly0JAUpha4eWR54d/U/nAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAjT0k5oTex4RPSlmsstH9SsvRknjbRQpi0SS502N1Ogyv9ZndbSazfwOO2kBU9tpOgIY2+v9lCa1I2ucR/3wqRfhU1xkF3GR6k2afPzXB/AkLf7sok8+sHyS3uXjR8rngupywHT0VEbfBTQagSPxKvT7yus8SmBBchWBs2O/zIXs=</X509Certificate>
-      </X509Data>
-    </KeyInfo>
-  </Signature>
-  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
-    <KeyDescriptor use="signing">
-      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
-        <X509Data>
-          <X509Certificate>MIIC7DCCAlWgAwIBAgICIVUwDQYJKoZIhvcNAQEFBQAwgaoxCzAJBgNVBAYTAkdCMREwDwYDVQQIEwhTb21lcnNldDENMAsGA1UEBxMEQmF0aDEQMA4GA1UEChMHRWR1U2VydjEPMA0GA1UECxMGQXRoZW5zMSswKQYDVQQDEyJBdGhlbnMgQU1TIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MSkwJwYJKoZIhvcNAQkBFhp0ZWNoLXN1cHBvcnRAYXRoZW5zYW1zLm5ldDAeFw0xMTA2MDYxMTQwMDhaFw0xMzAxMzExMTQwMDhaMEgxCzAJBgNVBAYTAkdCMRMwEQYDVQQIEwpNYW5jaGVzdGVyMRUwEwYDVQQKEwxOSFMgRXZpZGVuY2UxDTALBgNVBAMTBE5FTEgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDFay3GRMjy2ea3UeFncf4gBCYh0Md1U7z2swTCoy4TxRu++mgCXD1nyCb8DI1XFW0UqSuMiXvclOcqvQ5by7MybEXlQNNPIwxlDpkDfAnpDYX01lzlya+Vb5VmeMhLDyeHMgU6Z0VTXAEhTRtakWs2F7wSMDcTOFq6BtPyIY+hv9RALpsaXYqjkvOT8Zz76bbBD4aaYpniecZnIm29QP+a4kFR+2Z8rSqOJyuJtY7WDaojXn4zFIYiAgimG4/+iV/KHcGZcbxkcKZMiV+TOXvr9FSrhxhgxvOGUO/pcqAHVI5yDNx/hQ/lEe883jxAaiXfly0JAUpha4eWR54d/U/nAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAjT0k5oTex4RPSlmsstH9SsvRknjbRQpi0SS502N1Ogyv9ZndbSazfwOO2kBU9tpOgIY2+v9lCa1I2ucR/3wqRfhU1xkF3GR6k2afPzXB/AkLf7sok8+sHyS3uXjR8rngupywHT0VEbfBTQagSPxKvT7yus8SmBBchWBs2O/zIXs=</X509Certificate>
-        </X509Data>
-      </KeyInfo>
-    </KeyDescriptor>
-    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://nice.sts.local/oa/auth/rcvr" index="0" />
-    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://nice.sts.local/oa/auth/rcvr" index="1" />
-  </SPSSODescriptor>
-  <Organization>
-    <OrganizationName xml:lang="en-GB">NICE</OrganizationName>
-    <OrganizationDisplayName xml:lang="en-GB">National Institute of health and Clinical Excellence</OrganizationDisplayName>
-    <OrganizationURL xml:lang="">http://www.nice.org.uk/</OrganizationURL>
-  </Organization>
-  <ContactPerson contactType="technical">
-    <Company>NICE</Company>
-    <GivenName>Claudio</GivenName>
-    <SurName>Fiore</SurName>
-    <EmailAddress>claudio.fiore@nice.org.uk</EmailAddress>
-  </ContactPerson>
-</EntityDescriptor>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="http://nice.sts.local/oa/metadata" ID="GCMS2fJhXaZQgZ_3FSeOVhbopBl8Ss_A" validUntil="2012-09-22T07:26:43Z"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="#GCMS2fJhXaZQgZ_3FSeOVhbopBl8Ss_A">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>3vqJL4s+QG8Pbx06CRQYaiiDSa4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>PlGrcCdN1Clu7cReNlsObCKGQawsiyqFzE2d0s2xXqH3WFrjPIShxhmGkkNXoGA4
+2k/Mn+FRHQjibywIVq0m97L0Z1nX3WR+KkvzOF6K+Zr8O3/cMK6qf3qcbp/Po6PS
+C4z8+k5v6kg66Tp8m2CVib3XWAeEuc36wCUi3y5qrE1zPADgMq3MyjpxVfrG+NE1
+3gxCIIODG71mDh/EZyihJ0VHL+AX1udpWWHQNNlOxBNe21ZW5YnHqcYVthveA45x
+eXqYs+o8V1pdmiZY9nHeNpJb2x8rAldBmxBMIMoFysuiDTyfBfcgCQCAWvuK4lZ+
+8f0e+rIXYyd8o6tWh5ib1w==</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>MIIDXjCCAkagAwIBAgIJAJsSAZ2qn0BlMA0GCSqGSIb3DQEBBQUAMCgxDTALBgNV
+BAoTBE5JQ0UxFzAVBgNVBAMTDm5pY2Uuc3RzLmxvY2FsMB4XDTEyMDExMjE1MzMx
+MFoXDTIyMDEwOTE1MzMxMFowKDENMAsGA1UEChMETklDRTEXMBUGA1UEAxMObmlj
+ZS5zdHMubG9jYWwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDGN30H
+2ZGCPXt8DBek67cBJlQSmQUKD39XGTy/2T7WqBxGvReOtARXuNdMZ+M1tvQKz5z5
+ihe8Prpoafdk7omDMlF5JFnCnJOTs6SOprrza3BFaNNTmH4eeEm9PVUCX0SxRZ1X
+LlqwMHb+2FHU9swLZaz8E+oKz4jMtmJo5PbJRYliZicWxoKwEQ3JE/uqwlnRYLNs
+pL8uCoH/m2OTKo84I9GYvPV95EJ/oClv3AkqFavI6KanAZdirXXxPFr3vRskER/4
+ezzXwpw6QuL5nFEbu3WVKSD8elNAOkrkRUiTaNN8apQISnmk5VsUBAJH3dfS20ha
+t1VI2Rcang63hWWFAgMBAAGjgYowgYcwHQYDVR0OBBYEFMbKLlqCWn25DMLFFHz3
+6gZv0IB0MFgGA1UdIwRRME+AFMbKLlqCWn25DMLFFHz36gZv0IB0oSykKjAoMQ0w
+CwYDVQQKEwROSUNFMRcwFQYDVQQDEw5uaWNlLnN0cy5sb2NhbIIJAJsSAZ2qn0Bl
+MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADggEBADCdKj1mGtZnDt/zMJcg
+EHdD2wNp4y8jmpe1ImE/FD10u0gcjRfyotSwu4Gxaxp6qPXIFo3CzX/KDcuSsTws
+BWpW4WDNE+NsQJShsqea2QT/ZtHGJ59Q6DvBePCUu66f9LhT4b9+43ygAvaXqcME
+KExf5LC6hTF3OyUIcXqTip98wMMsGhSzhepGDI9qVusnuacIyShi1WsqJqg1Amwi
+lqhd2ElJv91uKg594PfWDwCZMH3EA0nkOfJiQevwYNDBlPoX81oHAwlCbhHsuLcu
+TQl2I/futhSk098JAQVtW93UGwlgJNZx+80+V5LA57CsPR+tcGk99JNvuaPC79/i
+gfw=</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<!-- Generated by Atacama (Eduserv OpenAthens) 1.5.2/Windows-i686 -->
+<md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol" AuthnRequestsSigned="false" WantAssertionsSigned="false"><md:KeyDescriptor use="signing">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:KeyName>nice.sts.local</ds:KeyName>
+<ds:X509Data>
+<!--
+  Subject:
+    O=NICE, CN=nice.sts.local
+  Issuer:
+    O=NICE, CN=nice.sts.local
+  Not Before:
+    Jan 12 15:33:10 2012 GMT
+  Not After:
+    Jan  9 15:33:10 2022 GMT
+-->
+<ds:X509Certificate>MIIDXjCCAkagAwIBAgIJAJsSAZ2qn0BlMA0GCSqGSIb3DQEBBQUAMCgxDTALBgNV
+BAoTBE5JQ0UxFzAVBgNVBAMTDm5pY2Uuc3RzLmxvY2FsMB4XDTEyMDExMjE1MzMx
+MFoXDTIyMDEwOTE1MzMxMFowKDENMAsGA1UEChMETklDRTEXMBUGA1UEAxMObmlj
+ZS5zdHMubG9jYWwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDGN30H
+2ZGCPXt8DBek67cBJlQSmQUKD39XGTy/2T7WqBxGvReOtARXuNdMZ+M1tvQKz5z5
+ihe8Prpoafdk7omDMlF5JFnCnJOTs6SOprrza3BFaNNTmH4eeEm9PVUCX0SxRZ1X
+LlqwMHb+2FHU9swLZaz8E+oKz4jMtmJo5PbJRYliZicWxoKwEQ3JE/uqwlnRYLNs
+pL8uCoH/m2OTKo84I9GYvPV95EJ/oClv3AkqFavI6KanAZdirXXxPFr3vRskER/4
+ezzXwpw6QuL5nFEbu3WVKSD8elNAOkrkRUiTaNN8apQISnmk5VsUBAJH3dfS20ha
+t1VI2Rcang63hWWFAgMBAAGjgYowgYcwHQYDVR0OBBYEFMbKLlqCWn25DMLFFHz3
+6gZv0IB0MFgGA1UdIwRRME+AFMbKLlqCWn25DMLFFHz36gZv0IB0oSykKjAoMQ0w
+CwYDVQQKEwROSUNFMRcwFQYDVQQDEw5uaWNlLnN0cy5sb2NhbIIJAJsSAZ2qn0Bl
+MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADggEBADCdKj1mGtZnDt/zMJcg
+EHdD2wNp4y8jmpe1ImE/FD10u0gcjRfyotSwu4Gxaxp6qPXIFo3CzX/KDcuSsTws
+BWpW4WDNE+NsQJShsqea2QT/ZtHGJ59Q6DvBePCUu66f9LhT4b9+43ygAvaXqcME
+KExf5LC6hTF3OyUIcXqTip98wMMsGhSzhepGDI9qVusnuacIyShi1WsqJqg1Amwi
+lqhd2ElJv91uKg594PfWDwCZMH3EA0nkOfJiQevwYNDBlPoX81oHAwlCbhHsuLcu
+TQl2I/futhSk098JAQVtW93UGwlgJNZx+80+V5LA57CsPR+tcGk99JNvuaPC79/i
+gfw=</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor><md:KeyDescriptor use="encryption">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:KeyName>nice.sts.local</ds:KeyName>
+<ds:X509Data>
+<!--
+  Subject:
+    O=NICE, CN=nice.sts.local
+  Issuer:
+    O=NICE, CN=nice.sts.local
+  Not Before:
+    Jan 12 15:33:10 2012 GMT
+  Not After:
+    Jan  9 15:33:10 2022 GMT
+-->
+<ds:X509Certificate>MIIDXjCCAkagAwIBAgIJAJsSAZ2qn0BlMA0GCSqGSIb3DQEBBQUAMCgxDTALBgNV
+BAoTBE5JQ0UxFzAVBgNVBAMTDm5pY2Uuc3RzLmxvY2FsMB4XDTEyMDExMjE1MzMx
+MFoXDTIyMDEwOTE1MzMxMFowKDENMAsGA1UEChMETklDRTEXMBUGA1UEAxMObmlj
+ZS5zdHMubG9jYWwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDGN30H
+2ZGCPXt8DBek67cBJlQSmQUKD39XGTy/2T7WqBxGvReOtARXuNdMZ+M1tvQKz5z5
+ihe8Prpoafdk7omDMlF5JFnCnJOTs6SOprrza3BFaNNTmH4eeEm9PVUCX0SxRZ1X
+LlqwMHb+2FHU9swLZaz8E+oKz4jMtmJo5PbJRYliZicWxoKwEQ3JE/uqwlnRYLNs
+pL8uCoH/m2OTKo84I9GYvPV95EJ/oClv3AkqFavI6KanAZdirXXxPFr3vRskER/4
+ezzXwpw6QuL5nFEbu3WVKSD8elNAOkrkRUiTaNN8apQISnmk5VsUBAJH3dfS20ha
+t1VI2Rcang63hWWFAgMBAAGjgYowgYcwHQYDVR0OBBYEFMbKLlqCWn25DMLFFHz3
+6gZv0IB0MFgGA1UdIwRRME+AFMbKLlqCWn25DMLFFHz36gZv0IB0oSykKjAoMQ0w
+CwYDVQQKEwROSUNFMRcwFQYDVQQDEw5uaWNlLnN0cy5sb2NhbIIJAJsSAZ2qn0Bl
+MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADggEBADCdKj1mGtZnDt/zMJcg
+EHdD2wNp4y8jmpe1ImE/FD10u0gcjRfyotSwu4Gxaxp6qPXIFo3CzX/KDcuSsTws
+BWpW4WDNE+NsQJShsqea2QT/ZtHGJ59Q6DvBePCUu66f9LhT4b9+43ygAvaXqcME
+KExf5LC6hTF3OyUIcXqTip98wMMsGhSzhepGDI9qVusnuacIyShi1WsqJqg1Amwi
+lqhd2ElJv91uKg594PfWDwCZMH3EA0nkOfJiQevwYNDBlPoX81oHAwlCbhHsuLcu
+TQl2I/futhSk098JAQVtW93UGwlgJNZx+80+V5LA57CsPR+tcGk99JNvuaPC79/i
+gfw=</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="http://nice.sts.local/oa/auth/rcv/shib/post" index="1" isDefault="true"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:artifact-01" Location="http://nice.sts.local/oa/auth/rcv/shib/art" index="2"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://nice.sts.local/oa/auth/rcv/saml2/post" index="3"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="http://nice.sts.local/oa/auth/rcv/saml2/art" index="4"/></md:SPSSODescriptor><md:Organization><md:OrganizationName xml:lang="en">NELH</md:OrganizationName><md:OrganizationDisplayName xml:lang="en">NHS Evidence- Health Information Resources</md:OrganizationDisplayName><md:OrganizationURL xml:lang="en">http://www.library.nhs.uk/</md:OrganizationURL></md:Organization><md:ContactPerson contactType="technical"><md:Company>NICE</md:Company><md:GivenName>Matthew John</md:GivenName><md:SurName>Mercer</md:SurName></md:ContactPerson></md:EntityDescriptor>
