@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="http://nice.sts.local/oa/metadata" ID="bcXn0DAkcHvUAGJmyCC1Wx6JMeQMiYqb" validUntil="2012-11-09T15:23:39Z">
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="http://nice.sts.local/oa/metadata" ID="LTez1vK6jJxG96pC2htKRg_7gS2KeaxM" validUntil="2012-12-13T10:23:04Z">
   <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
       <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
-      <ds:Reference URI="#bcXn0DAkcHvUAGJmyCC1Wx6JMeQMiYqb">
+      <ds:Reference URI="#LTez1vK6jJxG96pC2htKRg_7gS2KeaxM">
         <ds:Transforms>
           <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
           <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
         <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <ds:DigestValue>8X1MSUWC+zNX1oHS93jDtc54b9E=</ds:DigestValue>
+        <ds:DigestValue>UgvzC/YylUfiFA8o1fVhtEFS0BM=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
-    <ds:SignatureValue>gBhi7g4vU6KxTgPxtQRhL3rqMH98JrRsFV1qIhXpWaGmmxIkwpyCtaQit2zdHpro
-IKk2QNONVwKa5W4OGZoriVi61Qkx6Pq1/gyNibm7nOfmKjobDzw+uzslCMNSm0d3
-BBHDyrKfijAbM2vE30dj9oHEJUEQ/Ch8A0bmxbVGlSKedYqkUsYQ3e+csIzVIm0n
-P+UVxf4oLlUTplwpdAhEd8ZNjX7VI+pVZqy3h8W0ovat2Ayz7j/JytYEYzEEC+ao
-SRdgSuHW2Oixvgd4qdFGb05xUipSrWH9bGrvh9aL9P7pupv5hMJoVhNHmOOiLz34
-S5vnNlebcVEzLf8k3/c6Qg==</ds:SignatureValue>
+    <ds:SignatureValue>dfulgTbMuzJYdefVR9snLHVOQ2vZiOrjYPorvoxcSDa6HQr+Yz/ASMvbu6cTSFAg
+tzfUFleE7tc4SxbpKj7UDbyk0kSCb+TUqwa5IzL4Dr8XV/Pk/kImqLiZ4D5sfwkw
+HWNVXhMJuQfwdiKTGxNX20oZXUSM1iNy3VbAKtioEvNWUn+h4bLO7mgqN2uAZFZl
+LeFz6vLROxjWmAqqVC4bi89yOUQJR4SddQFtUBvDyju+fQU2NLkDr0ySxLyq4z5h
+pvXAoHWL0H4UQKTEAZk/8H9obAZJVYNhpbMgDQ71/TOS1WqAbuVBeXKh/AaeZNlp
+qGPWoqdAE/ElHQx2phDKDA==</ds:SignatureValue>
     <ds:KeyInfo>
       <ds:X509Data>
         <ds:X509Certificate>MIIDXjCCAkagAwIBAgIJAJsSAZ2qn0BlMA0GCSqGSIb3DQEBBQUAMCgxDTALBgNV
