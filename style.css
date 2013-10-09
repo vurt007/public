@@ -1,0 +1,1082 @@
+
+/* set the page size for the page */
+@page {
+	size: 8.5in 11in; 
+	margin: 2px;
+}
+BODY
+{
+    BORDER-RIGHT: 0px;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    PADDING-LEFT: 0px;
+    FONT-SIZE: 0.8em;
+    PADDING: 0px;
+    BACKGROUND-COLOR: #fff;
+    font-family: arial;
+    MARGIN-LEFT: 0.7cm;
+}
+
+h1, h2, h3, table, td, div {
+	font-family: arial;
+}
+table {
+	 font-size: 12px;
+	 width: 100%;
+}
+table, tr, td {padding: 0; border: 0; margin:0}
+
+H1
+{	
+	padding-top: 0;
+	border-top: 0;
+	margin-top: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
+h1.bio {
+	text-transform: none;
+	text-align: left;
+}
+H2
+{
+    FONT-SIZE: 1.1em
+}
+H3
+{
+    FONT-SIZE: 1em;
+    COLOR: #000;
+    LETTER-SPACING: normal
+}
+IMG
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px
+}
+UL
+{
+    LIST-STYLE-TYPE: disc
+}
+DIV#patient-details {
+	font-size: 9px;
+	float: right;
+	
+	border: 1px solid #000;
+	
+	padding: 2px;
+	width: 300px;
+	
+}
+DIV#allergy-details {
+	font-size: 14px;
+	float: right;	
+	margin-left:400px;
+	position: absolute;	
+	top: 190px;
+	width: 300px;
+	}
+DIV#gp-details {
+	font-size: 12px;
+	width: 300px;
+	float: left;
+}
+DIV#bio-details{
+	font-size: 12px;
+	width: 300px;
+	float: left;
+}
+/* bold text for detail on this one */
+DIV#bio-details DIV#item {
+	font-weight: normal;
+}
+DIV#bio-details DIV#detail {
+	width: 100%;
+	font-weight: bold;
+}
+DIV#container {
+	width: 100%;
+}
+
+DIV#container DIV {
+	display: inline;
+}
+
+DIV#item {
+	float: left;
+	clear: right;
+	font-weight: bold;
+	padding-right:5px;	
+}
+
+DIV#ua {
+	float: right;
+	clear: none;
+	width:20%;
+}
+
+DIV#ph {
+	float: right;
+	clear: left;
+	width:20%;
+}
+DIV#bc {
+	float: right;
+	clear: none;
+	width:20%;
+}
+DIV#detail {
+	width: 100%;
+	padding-right:5px;
+}
+DIV#letter-content{
+ 	font-size: 12px;
+	clear: all;
+	width: 100%;
+	height: 100%;
+	margin-top:15px;
+}
+/*DIV#footer {
+	position: absolute;
+	top: 1075px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	text-align: center;
+}
+DIV#footer p {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}*/
+DIV#footer-medisoft {
+	border-top: 1px solid #000;
+	height: 50px;
+	position: absolute;
+	width: 100%;
+	top: 1035px;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	text-align:center ;
+}
+
+DIV#footer-medisoft-nurse {
+	border-top: 1px solid #000;
+	height: 50px;
+	position: absolute;
+	width: 100%;
+	top: 950px;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	text-align: center;
+}
+
+DIV#hospital-list {
+	border-top: 1px solid #000;
+	position: absolute;
+	width: 100%;
+	top: 15cm;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	text-align:center ;
+}
+div#blocks {
+
+	width: 100%;
+	border-top: 1px solid #000;
+	font-size: 12px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+div.nurse-mh 
+{
+	font-weight :bold;
+	padding-bottom :3px;
+	padding-top :1px;
+	
+}
+
+div#blocks-na {
+
+	width: 100%;
+	border-top: 1px solid #000;
+	padding-left: 5%;
+	padding-top: 3px;
+	padding-bottom:3px;
+}
+
+div#nurse-ass-details {
+	width: 35%;
+	float: left; 
+	clear: none;	
+}
+
+div#right-eye-container {
+	width: 49%;
+	float: left;
+}
+div#left-eye-container {
+	width: 49%;
+	float: right;
+}
+
+div#left {
+	width: 49%;
+	float: left;
+}
+
+div#right {
+	width: 49%;
+	float: right;
+}
+DIV#FP10 , table#FP10 td{
+  font-weight: bold;
+  font-size    : 7.5pt;
+  font-family:Arial;
+}
+p.center {
+	text-align: center;
+}
+p.noPad {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+tr.bold, td.bold {
+	font-weight: bold;
+}
+p.bold {
+	font-weight: bold;
+}
+div#bio-ref{
+	position: relative;
+	font-weight: bold;
+	text-align: center;
+	top: 30px;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	
+}
+p.small {line-height:10%}
+p.big {line-height:200%}
+
+/* bold text for detail on this one */
+DIV#right-eye-container DIV#item,  DIV#left-eye-container DIV#item,{
+	font-weight: normal;
+}
+DIV#right-eye-container DIV#detail,  DIV#left-eye-container DIV#detail,{
+	width: 100%;
+	font-weight: bold;
+}
+DIV#right-eye-calcs { 
+	width: 70%;
+	float:left;
+}
+DIV#left-eye-calcs { 
+	width: 70%;
+	float:left;
+}
+
+div#item 
+{
+	width: 150px; /* default width*/
+}
+
+/*DIV#right-eye-calcs DIV#container, DIV#left-eye-calcs DIV#container { width: 100%}
+DIV#right-eye-calcs DIV#recommendations, DIV#left-eye-calcs DIV#recommendations { width: 18%}
+*/
+div#recommendations{
+	float: right;
+	width: 150px;
+}
+div#recommendations p {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+div#header {
+	font-size: 22px;
+	letter-spacing: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+	float: right;
+	text-transform: uppercase;
+	background-color: blue;
+	color: white;
+	
+}
+
+p.telephone {
+	padding: 0;
+	margin: 0;
+	
+}
+
+DIV.cleft
+{
+	text-align:right ;
+	width: 35%;
+	float: left;
+	clear: none;
+}
+
+DIV.cright
+{
+	
+	width: 35%;
+	float: right;
+	clear: left;
+}
+DIV.ccenter
+{
+	font-weight: bold;
+	text-align:center ;
+	width:30%;
+	float:left;
+	clear:none; 
+}
+
+p#subtitle 
+{
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+div#operation-diagram-cataract {
+	float: right;
+	clear: left;
+	/*border: 1px solid #000;*/
+	margin-top: 5px;
+	width: 300px;
+	margin-left:420px;
+	position: absolute;	
+}
+
+div#operation-diagram-cataract embed {
+	vertical-align: top;
+}
+
+div#monitoring div#details {
+	float: left;
+	width: 40%;
+}
+
+div#monitoring div#readings {
+	float: right;
+}
+.sub {
+	vertical-align: sub;
+	font-size: 70%;
+}
+.sig {
+	padding-top: 30px;
+}
+
+div#c_main, div#c_row{
+	
+}
+div#c_left, div#c_right {
+	width: 44%;
+	display: inline;
+	vertical-align: top;
+}
+div#c_left_ex, div#c_right_ex {
+	width: 46%;
+	display: inline;
+	vertical-align: top;
+}
+
+div#c_left{
+	text-align: right;
+}
+div#c_middle
+{
+	display: inline;
+	width: 12%;
+	text-align: center;
+}
+div#c_middle_ex
+{
+	display: inline;
+	width: 8%;
+	text-align: center;
+}
+div#c_right{
+	text-align: left;
+}
+
+div#c_acuity 
+{
+	vertical-align: top;
+	display: inline;
+	width: 33%;
+}
+
+.inlineVAS span
+{
+	margin-left: 4px;
+	margin-right: 4px;
+	
+}
+
+.bold {
+	font-weight: bold;
+}
+.bigger 
+{
+	font-weight: bold;
+	font-size: 14px;	
+}
+
+div#c_acuity_table
+{
+	vertical-align: top;
+	display: inline;
+	width: 33%;
+}
+
+
+div#d_table 
+{
+	display: table ;
+}
+div#d_row 
+{
+	
+}
+div#d_cell, div#d_widecell
+{	
+	vertical-align: top;
+	width: 24%;
+	display: inline ;
+	
+}
+div#d_widecell
+{
+	width: 99%;	
+}
+/* divs for container display inline  */
+div#container2 
+{
+	display: inline;
+	vertical-align: top;
+	font-size: 12px;
+}
+div#container2 div
+{
+	width: 49%;
+	display: inline;
+	vertical-align: top;
+}
+div#container2 div div /* reset child divs */
+{	
+	width : auto ;
+	display: block ;
+	background-color: #fff ;
+}
+div#container2 div:first-child {
+	font-weight: bold;
+}
+
+div#half 
+{
+	width: 49%;
+	display: inline;
+	vertical-align: top;
+}
+
+div#diag 
+{
+	z-order: 0;
+	position: relative ;
+	text-align: right ;
+	clear:none ;
+}
+.left 
+{
+	float:left;
+}
+.right
+{
+	float: right;
+}
+div#cell 
+{
+	display:inline;
+	vertical-align: top;
+}
+/* check lists */
+div#cl_question,div#cl_ans1,div#cl_ans2
+{
+	display: inline;
+	vertical-align: top;
+}
+div#cl_question
+{
+	width: 69%;
+}
+div#cl_ans1
+{
+	width: 15%;
+}
+div#cl_ans2
+{
+	width: 15%;
+}
+
+/* 3 columns */
+div#c_row3 
+{
+	width: 99%;
+}
+div#c_row3 div
+{
+	display: inline ;
+	width: 30%;
+	vertical-align: top ;
+}
+div#questions-yes-no 
+{
+}
+
+div#questions-yes-no div div
+{
+	display: inline ;
+	vertical-align: top;
+	text-align: center ;
+}
+div#questions-yes-no div div#ans 
+{
+	width: 7%;
+	font-weight : bold;
+}
+div#questions-yes-no div div#question 
+{
+	width: 71%;
+}
+div#tick 
+{
+	display: block ;
+	height : 20px;
+	width: 20px;
+	border: solid 1px #ccc;
+}
+div#footer 
+{
+	display: none;
+	
+}
+.footer_logo 
+{
+	width: 40px;
+	height: 20px;	
+}
+.vertical {
+	writing-mode: tb-rl;
+	filter: flipv fliph;
+}
+
+div.pat_detail_left {
+	font-weight: bold;
+	display: inline; 
+	width: 30px; 
+	vertical-align: top;
+}
+span.pat_detail_left {
+	font-weight: bold;
+	width: 50px;
+	text-align: right; 
+}
+div.pat_detail_right {
+	display: inline; 
+	width: 70%; 
+}
+.tab {
+	margin-left: 10px;
+}
+
+
+/*div.box {
+	border: 2px solid red;
+}
+text-decoration: underline;
+*/
+
+div.biometrySelected
+{
+	color: #fff;
+	background-color: #000;
+	padding: 2px;
+}
+
+
+table.investigation {
+	/*border: 1px solid #000;*/
+	width: 100%;
+	margin: 2px;
+}
+table.investigation tr.head {
+	font-weight: bold;
+}
+table.investigation td {
+	/*border: 1px solid #000;*/
+	vertical-align: top;
+}
+div#surgery-cancelled {
+	width: 350px;
+	margin: 2px;
+	border: 1px solid #000;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 2px;
+}
+
+div#unable-to-lie-flat {
+	margin: 2px;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 2px;
+}
+
+
+.sign-top {
+
+	margin-bottom: 30px;
+}
+
+
+/*
+	table styles for reports / summaries
+*/
+table.out {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table.out tr.head td {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	border : 0;
+	border: 1px solid #000;
+	border-top:0;
+	border-bottom: 2px solid #000;
+	text-align: center;
+	vertical-align: bottom;
+}
+table.out td {
+	border: 1px solid #000;
+}
+table.out td {
+	padding: 2px;
+	font-size: 11px;
+}
+
+
+table.preop-proforma-checklist
+
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-top:   1px solid #000;
+}
+
+table.preop-proforma-checklist td, table.preop-proforma-checklist th
+{
+	
+	margin  :0px;
+	padding-top :4px;
+	padding-bottom :4px;
+	padding-left :2px;
+	border:   1px solid #000;
+}
+
+table.preop-proforma-checklist .left
+{
+	text-align: left;
+}
+table.preop-proforma-checklist .center
+{
+	text-align: center;
+}
+
+table.postop-proforma-checklist
+
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-top:   1px solid #000;
+	width: 65%;
+	font-size: 14px;
+}
+
+table.postop-proforma-checklist td, table.preop-proforma-checklist th
+{
+	
+	margin  :0px;
+	padding-top :2px;
+	padding-bottom :2px;
+	padding-left :2px;
+	border:   1px solid #000;
+}
+
+table.postop-proforma-checklist .left
+{
+	text-align: left;
+}
+table.postop-proforma-checklist .center
+{
+	text-align: center;
+}
+
+table.postop-proforma-questions
+
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-top:   1px solid #000;
+}
+
+table.postop-proforma-questions td, table.postop-proforma-questions th
+{
+	
+	margin  :0px;
+	padding-top :4px;
+	padding-bottom :4px;
+	padding-left :2px;
+	border:   1px solid #000;
+	text-align: center;
+}
+
+table.postop-proforma-questions-no-border
+
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-top:   0;
+}
+
+table.postop-proforma-questions-no-border td, table.postop-proforma-questions-no-border th
+{
+	
+	margin  :0px;
+	padding-top :4px;
+	padding-bottom :4px;
+	padding-left :2px;
+	border:   0;
+	text-align: center;
+}
+
+table.postop-proforma-questions-left
+
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-top:   0;
+}
+
+table.postop-proforma-questions-left td, table.postop-proforma-questions-no-border th
+{
+	
+	margin  :0px;
+	padding-top :4px;
+	padding-bottom :4px;
+	padding-left :2px;
+	border:   0;
+	text-align: left;
+	font-size: 15px;
+}
+
+table.prescription
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+	
+}
+
+table.prescription td
+{
+	margin  :0px;
+	padding-top :4px;
+	padding-bottom :4px;
+	padding-left :2px;
+	border:   1px solid #000;
+	
+	
+}
+
+/*div#follow-up {
+	background-color: red;
+}*/
+div#follow-up::first-letter {
+	text-transform:uppercase;
+}
+
+
+.capFirst::first-letter {text-transform:uppercase;}
+
+ul { 
+	list-style-type: square ;
+	margin: 0;
+	margin-left: 15px;
+	padding: 0;
+}
+
+li {}
+
+div#letter-col-left
+{
+	display:inline ;
+	width:310px;
+	margin-right:30px;
+	vertical-align :top;
+}
+	
+div#letter-col-right
+{
+	display:inline ;
+	width:310px;
+	vertical-align :top;
+}
+
+table.postop-checklist {
+	width: 80%;
+	border-collapse: collapse;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+table.postop-checklist td {border: 1px solid #000;padding: 2px}
+table.postop-checklist tr.head {font-weight: bold;}
+
+table.postop-checklist td.ans span {padding-left: 1px;border: 1px solid #000; background-color:#ccc; font-weight: bold }
+
+table.pain-score {border-collapse: collapse;margin-top: 5px; margin-bottom: 5px;}
+table.pain-score td {border: 1px solid #000; padding-top: 1px;padding-bottom: 1px;} 
+table.pain-score td div.grp {background-color:#ccc; padding: 0;font-size: 10px;text-align: right;}
+
+
+/* patient details box
+**********************************************/
+div#new_patient {
+	padding: 3px;
+}
+div#new_patient div {
+	/*vertical-align: top;*/
+	/*line-height: 1.5;*/
+}
+div#new_patient span {
+	line-height: 1.5;
+}
+	/* there are a few problems here with the style being overriden */
+div#new_patient, table#PatientDetails td, table#PatientDetails b, table#PatientDetails div b, table#PatientDetails div {
+	font-size: 12px;
+}
+
+table#PatientDetails {
+	width: 100%;
+}
+table#PatientDetails td {
+	width : 50%;
+}
+
+table#PatientDetails div {
+	display: inline;
+}
+
+
+/*
+	clinic note subtitle
+*/
+.subtitle {margin-top: 12px; font-weight: bold; text-transform: uppercase;}
+
+
+/* investigation table
+*********************************************/
+table#investigation_table .head {
+	font-weight: bold ;
+	vertical-align: top;
+	width: 95px;
+}
+
+table#investigation_table .sub-head 
+{
+	vertical-align: top;
+	font-style: italic ;	
+}
+
+.barcode
+{
+	/*font-family: "3 of 9 Barcode";*/
+	/*font-family: "Free 3 of 9";*/
+	font-family: "IDAutomationHC39M";
+}
+        
+.complications
+{
+	font-weight: bold;
+}
+.complications dl
+{
+	padding: 0; margin-top: 0; margin-bottom: 10px;
+}
+.complications dd, .complications dt
+{
+	font-weight: normal;
+}
+
+/* 
+	div nesting colourisation 
+div {
+	border: 1px solid #000;
+	padding: 1px;
+}
+div div 
+{
+	border: 1px solid red;
+}
+div div div
+{
+	border: 1px solid yellow;
+}
+div div div div
+{
+	border: 1px solid blue;
+}
+div div div div div
+{
+	border: 1px solid green;
+}
+div div div div div div
+{
+	border: 1px solid purple;
+}
+div div div div div div div
+{
+	border: 1px solid Lime;
+}
+div div div div div div div div
+{
+	border: 2px solid Fuchsia;
+}*/
+
+/* FFA report
+-------------*/
+
+div#ffa-report-data
+{
+}
+
+div#ffa-detail-data-left
+{
+	display:inline;
+	width:35%;
+	text-align:left;
+	vertical-align:top;
+	font-size:12px
+}
+
+div#ffa-detail-data-right
+{
+	display:inline;
+	width:35%;
+	text-align:right;
+	vertical-align:top;
+	font-size:12px
+}
+
+div#ffa-detail-title
+{
+	display:inline;
+	width:25%;
+	font-weight:bold;
+	text-align:center;
+	Height:25px;
+	vertical-align:top;
+	font-size:12px
+}
+
+div#FP10-S1
+{
+	position: absolute;
+	top: 0.5cm; 
+	margin-left: 80px;
+	width:30%;
+	margin-top:0px;
+	padding:0px;
+}
+div#FP10-S2
+{
+	position: absolute;
+	top: 3.75cm; 
+	margin-left: 50px;
+	width:35%;
+	margin-top:0px;
+	padding:0px;
+}
+
+
+div#FP10-S3
+{
+	position: absolute;
+	top: 10.8cm; 
+	margin-left: 50px;
+	width:40%;
+	margin-top:0px;
+	padding:0px;
+}
+
+div#FP10-S4
+{
+	position: absolute;
+	top: 12.00cm; 
+	margin-left: 200px;
+	width:40%;
+	margin-top:0px;
+	padding:0px;
+}
+
+div#FP10-S5
+{
+	position: absolute;
+	top: 13.15cm; 
+	margin-left: 50px;
+	width:40%;
+	margin-top:0px;
+	padding:0px;
+}
+div#FP10-S6
+{
+	
+	margin-top:2px;
+	margin-bottom:0px;
+	padding:0px;
+}
+
+div#FP10-S7
+{
+	
+	position: absolute;
+	top: 3.5cm; 
+	margin-left: 150px;
+	width:40%;
+	margin-top:0px;
+	padding:0px;
+    font-weight: bold;
+    font-size    : 7.5pt;
+   font-family:Arial;
+}
+
+p#lineBreak {
+	margin-top : .15cm;
+	margin-bottom:.15cm;
+}
