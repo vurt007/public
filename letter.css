@@ -1,0 +1,363 @@
+
+* {
+ 	font-family:arial;
+    font-size:11pt;	
+}
+
+BODY
+{
+    margin-left:30px;
+    margin-right:30px;
+}
+
+hr {
+	border: 1px solid #000;
+	color: #000;
+}
+
+/* hospital details */
+div#address-sender {
+	text-align: right;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	height: 160px;
+}
+div#address-recipient /* see #letter-content */
+{
+	position: absolute;
+	top: 4.25cm;
+	margin: 0;
+	margin-left: 20px;
+	font-size: 16px;
+}
+div#address-recipient-p2 /* see #letter-content */
+{
+	position: absolute;
+	top: 26.95cm;
+	margin: 0;
+	margin-left: 20px;
+	font-size: 16px;
+}
+div#address-recipient-p22 /* see #letter-content */
+{
+	/*position: absolute;*/
+	top: 4.25cm;
+	margin: 160px;
+	margin-left: 20px;
+	font-size: 16px;
+}
+div#address-secretary /* see #letter-content */
+{
+	position: absolute;		
+	font-weight: normal;	
+	left:400;
+	text-align: left;
+
+	
+}
+div#address-recipient div
+{
+	margin-left: 0;
+}
+div#trust {
+	font-weight: normal;
+}
+
+div#names {
+  width: 80%;
+}
+
+div#logo {
+	float: right; 
+	clear: right;
+	padding-left: 10px;
+}
+
+
+/* trust name */
+div#trust p#t-name {
+	font-size: 28px;
+	color: #000;
+	font-family: arial;
+}
+div#trust span#t-logo {
+	margin-left: 10px;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: #fff;
+	background-color: #0063B5;
+	text-transform:uppercase;
+	font-size: 28px;
+	font-style: italic;
+	font-weight: bold;
+	
+}
+/* trust sub */
+div#trust p#t-sub {
+	color: #0063B5;
+	font-family: arial;
+	font-size: 18;
+}
+
+div#address-sender p {
+	padding: 0; margin: 0;
+}
+
+div#address-recipient p 
+{
+	padding: 0; margin: 0;
+}
+
+/* hospital name */
+div#h-name {
+		color: #0063B5;
+		font-size: 14px;
+		padding-bottom: 0;
+		margin-top: 15px;
+		font-weight: bold;
+		font-family:Arial ;
+}
+
+div#tel {
+	margin-top: 10px;
+	font-family :Arial ;
+	
+	
+}
+
+div#letter-salutation div{
+	margin-top: 0px;
+}
+
+div#doc-clinic-detail {
+	padding-top :0px;
+	padding-bottom :0px;
+	 
+}
+
+div#nurse-pre-op-detail
+{
+	padding-top :10px;
+	padding-bottom :10px;
+	
+}
+
+div#drugs 
+{
+	padding-top :5px;
+	padding-bottom :10px;
+	
+}
+
+div#letter-sig
+{
+	margin-top :5px;
+	margin-bottom :5px;
+}
+
+div#sign-off
+{
+	padding-bottom :80px;
+}
+div#cc
+{
+	padding-top:20px;
+}
+
+div#letter-content 
+{
+	/* must start below the address recipient  see #address-recipient  */ /* top changed from 7.25 to 6.5 test for extra space*/
+	position: absolute;
+	top: 7.25cm; 
+	margin-left: 0px;
+	margin-top:0px;
+	padding:0px;
+}
+div.letterbody
+{ 
+	line-height:1.5;
+}
+div#cr
+{
+	display:block  ;
+	width:100%;
+}
+DIV.todo
+{
+	color :Red ;
+	font-style:italic ;
+}
+
+table#opto
+{
+	font-size :8pt;
+	width:90%;
+	
+}
+
+ul.nodetail
+{
+	padding: 0;
+	margin: 0;
+}
+
+ul.nodetail li
+{
+	list-style: none;
+}
+
+div.box
+{
+	
+	border :1px solid #000;
+	height :18px;
+	
+}
+div.boxsmall
+{
+	
+	border :1px solid #000;
+	height :12px;
+	
+}
+
+div.tickbox
+{
+	
+	border :solid 1px black;
+	height :15px;
+	width :15px;
+	
+}
+
+td.tablehead
+{
+	font-weight :bold;
+	text-align :center ;
+	height:15px;
+	
+}
+td.tableheadsmall
+{
+	font-weight :bold;
+	text-align :center ;
+	height:10px;
+	
+}
+
+
+div#footer 
+{
+	display: none;
+	
+}
+
+div#follow-up::first-letter {
+	text-transform:uppercase;
+}
+
+p.upper::first-letter, div.upper::first-letter, span.upper::first-letter
+{
+	text-transform:uppercase;
+}
+.lower{
+	text-transform:lowercase;
+}
+
+tr#test
+{
+	
+}
+
+
+table.gpclinicletter td {
+	vertical-align: top;
+	padding-right: 4px;
+	
+}
+
+/*
+	clinic elements, left side is bold
+------------------------------------------------------------------------------------------
+	*/
+.head {
+	font-weight: bold ;
+	vertical-align: top;
+	width: 95px;
+}
+
+.sub-head 
+{
+	vertical-align: top;
+	font-style: italic ;	
+}
+
+/* letter optom return
+-------------------------------------------------------------*/
+table.OptomReturnComments {
+	text-align: left;
+	float: right;
+	width: 300px;
+	margin-top: 40px;
+}
+
+table.OptomReturnComments td {
+	text-align: left;
+	height: 15px;
+}
+
+
+.questionnaire {
+	text-align: left;
+	
+}
+.questionnaire div, .questionnaire ul { 	margin: 0; padding: 0; 	}
+
+.questionnaire div {
+		display: inline;
+		width: 220px;
+		vertical-align: top;
+	}
+
+.questionnaire ul {
+	/*float: right;*/
+	width: 400px;
+	list-style: circle;
+	display: inline;
+	margin-left: 30px; 
+}
+
+.questionnaire li {
+	font-size: 10px;
+}
+
+.bold {
+	font-weight: bold;	
+}
+
+/* barcode display options 
+*************************************************/
+.barcode, .barcodeLower
+{
+	/*line-height: 1;*/
+}
+.barcode
+{
+	/*font-family: "barcode3 of 9 Barcode";*/
+	/*font-family: "Free 3 of 9";*/
+	font-family: "IDAutomationHC39M";
+	font-size: 7pt;
+}
+.barcodeLower
+{
+	font-size: 7px;
+}
+
+/* bug: 3213 reduce size of text for drug name
+**************************************************/
+.smallerDrugName div
+{	
+	/*font-size: 12px; */
+}
+        
